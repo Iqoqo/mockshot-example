@@ -2,6 +2,9 @@
   "name": "mockshot-example",
   "version": "1.0.0",
   "main": "src/index.ts",
+  "scripts": {
+    "test": "jest -c ./jest.config.js"
+  },
   "repository": "https://github.com/Iqoqo/mockshot-example.git",
   "author": "Shlomo Kraus <shlomo.kraus@iqoqo.co>",
   "license": "MIT",

@@ -1,21 +1,20 @@
-export enum Roles {
-    Admin,
-    Visitor
-}
-
 export interface IUser {
     id: string;
     name: string;
-    role: Roles
+    email: string;
 }
 
 export class UserService {
 
     constructor(private readonly db){}
 
-    async createUser({name, role}: {name: string, role: Roles}):Promise<IUser>{
-        const result = await this.db.save({ name, role});
-        return result;
+    async getUser(id: string):Promise<IUser>{
+        const user = await this.db.findOneById(id);
+        return {
+            id: user.id,
+            name: user.name, 
+            email: user.email
+        };
     }
 
 }

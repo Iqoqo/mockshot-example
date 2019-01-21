@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserService Should get user: [mockshot] [ClassSnap] [[UserService getUser success]] 1`] = `
+{
+  "className": "UserService",
+  "methodName": "getUser",
+  "mock": {
+    "email": "test@iqoqo.co",
+    "id": "abc",
+    "name": "Some Name"
+  },
+  "mockName": "success"
+}
+`;
