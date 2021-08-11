@@ -2498,10 +2498,6 @@ nan@^2.9.2:
   version "2.12.1"
   resolved "https://registry.npmjs.org/nan/-/nan-2.12.1.tgz#7b1aa193e9aa86057e3c7bbd0ac448e770925552"
 
-nanoid@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/nanoid/-/nanoid-2.0.1.tgz#deb55cac196e3f138071911dabbc3726eb048864"
-
 nanomatch@^1.2.9:
   version "1.2.13"
   resolved "https://registry.npmjs.org/nanomatch/-/nanomatch-1.2.13.tgz#b87a8aa4fc0de8fe6be88895b38983ff265bd119"
@@ -2773,8 +2769,8 @@ path-key@^2.0.0:
   resolved "https://registry.npmjs.org/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
 
 path-parse@^1.0.5, path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.npmjs.org/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
 
 path-type@^1.0.0:
   version "1.1.0"
@@ -3193,12 +3189,6 @@ shell-quote@^1.6.1:
 shellwords@^0.1.1:
   version "0.1.1"
   resolved "https://registry.npmjs.org/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
-
-shortid@^2.2.14:
-  version "2.2.14"
-  resolved "https://registry.npmjs.org/shortid/-/shortid-2.2.14.tgz#80db6aafcbc3e3a46850b3c88d39e051b84c8d18"
-  dependencies:
-    nanoid "^2.0.0"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
